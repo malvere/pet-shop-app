@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "petshoptesttask"
+version = "0.1.0"
+description = ""
+authors = ["Malvere <vaderreg@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.1"
+sqlalchemy = "^2.0.40"
+psycopg2 = "^2.9.10"
+asyncpg = "^0.30.0"
+greenlet = "^3.2.0"
+bcrypt = "^4.3.0"
+pyjwt = "^2.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
